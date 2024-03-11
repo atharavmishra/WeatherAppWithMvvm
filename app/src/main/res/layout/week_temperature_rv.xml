@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtDayName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/today"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivWeatherIcon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/partial_rainy"
+        android:layout_height="25dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:text="@string/temperature"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

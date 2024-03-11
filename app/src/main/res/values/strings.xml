@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="noida">Noida</string>
+    <string name="_17">17°</string>
+    <string name="fog_10_18_air_quality_115_moderate">Fog 10°/18° Air quality: 115 - Moderate</string>
+    <string name="high_pollen_count">High pollen count</string>
+    <string name="time">time</string>
+    <string name="_temperature_res">17°</string>
+    <string name="_2_2">2/2</string>
+    <string name="today">Today</string>
+    <string name="temperature">10°/19°</string>
+    <string name="thunderstorm">Thunderstorm</string>
+
+</resources>
